@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylenew.css">
+
+    <title>Sepehr Amini - Mobile App Developer</title>
+</head>
+
+<body>
+    <div class="container">
+        <img class="ham-img" src="images/hamburgerimg.jpg" alt="hamburger image" onclick="hamCover()">
+
+        <!-- open open1 -->
+        <div class="ctn" data-opnstate="0" onclick="openfun()" >
+
+            <div class="listContainer">
+                <div class="row" onclick="home1()">Home</div>
+                <div class="row" onclick="resume()">Resume</div>
+                <div class="row" onclick="portfolio()">Portfolio</div>
+                <div class="row" onclick="contacts()" style="white-space: nowrap;">Contact me</div>
+            </div>
+
+            <div class="ctn_ham">
+
+            </div>
+
+            <div class="ctn_cl" onclick="closefun()">
+
+                <div class="ctn_cl_close1">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- home -->
+
+        <div class="sidebar">
+            <li>
+                <ul onclick="homeBig()" ><img class="homeimg" src="images/icons8-home-64.png" style="transform: rotate(0deg);">
+                    <p>Home</p>
+                </ul>
+                <ul onclick="resumeBig()" ><img class="homeimg" src="images/icons8-development-skill-50.png" style="transform: rotate(0deg);">
+                    <p>Resume</p>
+                </ul>
+                <ul onclick="portfolioBig()" ><img class="homeimg" src="images/icons8-property-script-50.png" style="transform: rotate(0deg);">
+                    <p>Portfolio</p>
+                </ul>
+                <ul onclick="contactsBig()" ><img class="homeimg" src="images/icons8-secured-letter-50.png" style="transform: rotate(0deg);">
+                    <p>Contacts</p>
+                </ul>
+            </li>
+        </div>
+
+
+        <div class="immagine">
+            <img src="images/axeman.png" alt="Profile Photo">
+            <h1>Sepehr Amini</h1>
+            <div class="st1" style="width: 100px;">Web & Mobile Developer </div>
+            <a class="button1" href='cvmarzo2023.pdf' target="_blank">Download CV</a>
+        </div>
+
+        <div class="centrale">
+            <div class="home"  >
+                <h1>Sepehr Amini</h1>
+                <div class="stContainer">
+                    <div class="st1"> Developer </div>
+                    <div class="st2"> Web </div>
+                    <div class="st3"> Mobile </div>
+                </div>
+
+                <a class="button2" href='cvmarzo2023.pdf' target="_blank">Download CV</a>
+
+            </div>
+
+            <!-- resume -->
+
+            <div class="resume-contenuto" >
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="princi">
+                        <div class="left-part">
+                            <p class="princi-anno">2020-2021</p>
+                            <div class="cerchio"></div>
+                            <p class="princi-desc0">IFOA - Training Institute of Corporate Professionals</p>
+                        </div>
+                        <div class="right-part">
+                            <p class="princi-desc1">Developer for web applications and mobile</p>
+                            <p class="princi-desc2">In this course I learned the
+                                basics of programming, with a focus on OOP. The main
+                                focus of the course was learning how to program in Java
+                                and applying that knowledge in Android Studio. We have
+                                also been given knowledge
+                                of Front End (HTML, Javascript,Css), SQL, Cyber security.</p>
+                        </div>
+                    </div>
+
+                    <div class="princi">
+                        <div class="left-part">
+                            <p class="princi-anno">2017-2021</p>
+                            <p class="princi-desc0">Conservatory of music "Luigi Cherubini"</p>
+                            <div class="cerchio"></div>
+                        </div>
+                        <div class="right-part">
+                            <p class="princi-desc1">Developer for audio applications</p>
+                            <p class="princi-desc2">Master of Electronic music. In this course I learned to program with visual
+                                 programming languages for music 
+                                 and multimedia like MSP-MAX and PureData.</p>
+                        </div>
+                    </div>
+                    <h3>Experience</h3>
+                    <div class="princi">
+                        <div class="left-part">
+                            <p class="princi-anno">2021 - Current</p>
+                            <p class="princi-desc0">MMInformatica Company</p>
+                            <div class="cerchio"></div>
+                        </div>
+                        <div class="right-part">
+                            <p class="princi-desc1">Softwar Developer</p>
+                            <p class="princi-desc2">DMH project.
+                                https://mminformatica.it/</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Coding Skills</h3>
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Javascript</p>
+                        <p class="percentuale">80%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: ottanta 1s ease-in-out forwards;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">PHP</p>
+                        <p class="percentuale">60%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: sessanta 1s ease-in-out forwards;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">HTML/Css</p>
+                        <p class="percentuale">80%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: ottanta 1s ease-in-out forwards;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Java</p>
+                        <p class="percentuale">75%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: settantacinque 1s ease-in-out forwards;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Sql</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: settanta 1s ease-in-out forwards;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">cycling74 - MAX</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: settanta 1s ease-in-out forwards;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">C#</p>
+                        <p class="percentuale">30%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: trenta 1s ease-in-out forwards;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">C++</p>
+                        <p class="percentuale">30%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="animation: trenta 1s ease-in-out forwards;"></div>
+                        </div>
+                    </div>
+                
+                    <h3>IDE</h3>
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Visual Studio Code</p>
+                        <p class="percentuale">90%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Android Studio</p>
+                        <p class="percentuale">80%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Eclipse</p>
+                        <p class="percentuale">80%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">PhpStorm</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 70%;"></div>
+                        </div>
+                    </div>
+               
+                    <h3>Editing Audio-Video</h3>
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Ableton Live</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">iZotope RX</p>
+                        <p class="percentuale">80%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Adobe Premiere</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="contenitore_componente">
+                        <p class="skill_name">Adobe Photoshop</p>
+                        <p class="percentuale">70%</p>
+                        <div class="shape_border">
+                            <div class="pr_shape" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- portfoglio -->
+            <div class="portfolio" >
+                <div class="flexportfolio">
+                    <h2>Portfolio</h2>
+                    <div class="portfolio_element">
+                        <figure>
+                            <a href="http://amini.netsons.org/calc/index.html" target="_blank"><img
+                                    src='images/calculator.jpg'></a>
+                            <figcaption>Calculator with 3 different themes. Html - Css - JavaScript.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="portfolio_element">
+                        <figure>
+                            <a href="http://amini.netsons.org/snake_game/SnakeGameIndex.php" target="_blank"><img
+                                    src='images/SnakeGame.jpg' alt='snake game image'
+                                    style="border: 1px solid rgba(100,100,100,0.5);"></a>
+                            <figcaption>Snake game. Html - Css - JavaScript.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="portfolio_element">
+                        <figure>
+                            <a href="https://amini.netsons.org/web_design/index.php" target="_blank"><img
+                                    src='images/loopstudio.jpg' alt='web site image'></a>
+                            <figcaption>Responsive web design. Html - Css - JavaScript</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- contact me -->
+            <div class="contact_me">
+
+                <form action="contactme.php" method="post">
+
+                    <div class="typeanime">
+                        How can I help you?
+                    </div>
+
+                    <input autocomplete="off" type="text" id="fname" name="Fullname" placeholder="Full name..">
+
+                    <input autocomplete="off" type="text" id="e_mail" name="Email" placeholder="Your Email..">
+
+                    <input autocomplete="off" type="text" id="subject_id" name="Subject" placeholder="Subject..">
+
+                    <textarea id="message_id" name="message" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <button type="submit" class="submitbtn">Send</button>
+                </form>
+            </div>
+
+        </div>
+       
+       
+        
+</body>
+<script src="script.js"></script>
+<script src="script-big.js"></script>
+
+</html>
