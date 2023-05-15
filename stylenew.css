@@ -206,6 +206,14 @@
     width: 80%;
   }
 }
+@-webkit-keyframes novanta {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
 
 @keyframes ottanta {
   from {
@@ -213,6 +221,14 @@
   }
   to {
     width: 80%;
+  }
+}
+@keyframes novanta {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
   }
 }
 
